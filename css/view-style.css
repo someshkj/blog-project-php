@@ -9,33 +9,48 @@
 
 body {
   position: relative;
-  background: url("create.jpg") no-repeat;
+  background: url("../images/view.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
+  background-attachment: fixed;
 }
 .dark-overlay {
-  background-color: rgba(135, 134, 134, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
   text-align: center;
   margin-bottom: 10px;
-  margin-top: 10px;
-  font-size: 60px;
-  color: rgb(139, 255, 234);
+  font-size: 90px;
+  color: #dab88b;
 }
-h4 {
-  color: rgb(2, 92, 75);
+
+.pl-3,
+.px-3 {
+  word-wrap: break-word;
+  color: #f3e9dd;
+  font-size: 18px;
 }
-.bg-secondary {
-  background-color: rgb(103, 122, 119) !important;
+.action-buttons {
+  /* background-color: beige; */
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  color: bisque;
+  font-size: 50px;
+}
+hr {
+  color: beige !important;
 }
 
 .footer {
@@ -43,6 +58,6 @@ h4 {
   left: 0;
   bottom: 0;
   width: 100%;
-  color: rgb(0, 0, 0);
+  color: rgb(183, 177, 177);
   text-align: center;
 }
